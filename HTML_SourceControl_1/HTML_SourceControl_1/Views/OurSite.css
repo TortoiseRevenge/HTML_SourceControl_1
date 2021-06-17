@@ -5,6 +5,11 @@ body {
     font-family:'Comic Sans MS'
 }
 button{
-    background-color:yellowgreen;
+    color:brown;
+    background-color:cadetblue;
     font-family:Wingdings;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
