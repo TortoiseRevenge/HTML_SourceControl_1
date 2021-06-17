@@ -1,6 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src=".\ourSite.js"></script>
     <link href=".\ourSite.css" rel="stylesheet" />
     <title>
@@ -9,25 +12,28 @@
 </head>
 
 <body>
-    <center><b>Life Navigators</b></center>
+    <center><h1>Life Navigators</h1></center>
+    <div class="container-fluid">
     <p>
-        <b> Mission</b> <br />
-        The mission of Life Navigators is to improve the quality of life for individuals with developmental and related disabilities, their families, and the community through information, education, advocacy and life planning services.
-        <img src="https://github.com/TortoiseRevenge/HTML_SourceControl_1/blob/main/HTML_SourceControl_1/HTML_SourceControl_1/HTML%20Activity%20-%20Resources/Life%20Navigators/LifeNavigators1.jpg?raw=true" alt="Code the Way" width="15%" height="15%">
-        <img src="https://github.com/TortoiseRevenge/HTML_SourceControl_1/blob/main/HTML_SourceControl_1/HTML_SourceControl_1/HTML%20Activity%20-%20Resources/Life%20Navigators/LifeNavigators2.jpg?raw=true" alt="Code the Way" width="15%" height="15%">
-        <img src="https://github.com/TortoiseRevenge/HTML_SourceControl_1/blob/main/HTML_SourceControl_1/HTML_SourceControl_1/HTML%20Activity%20-%20Resources/Life%20Navigators/LifeNavigators3.jpg?raw=true" alt="Code the Way" width="15%" height="15%">
-        <img src="https://github.com/TortoiseRevenge/HTML_SourceControl_1/blob/main/HTML_SourceControl_1/HTML_SourceControl_1/HTML%20Activity%20-%20Resources/Life%20Navigators/LifeNavigators4.jpg?raw=true" alt="Code the Way" width="15%" height="15%">
-        <br />
-        <b>Our Vision</b>
-        <br />
-        Life Navigators envisions an inclusive community where individuals with disabilities and their support networks experience full participation and maximized independence. Our community will value the rights, hopes, dreams and contributions of all people with disabilities.
-        <br />
+        <div class="row">
+            <div class="col-md-7">
+            <div class="row">
+                <div class="col-md-3"><b>Mission</b></div>
+                <div class="col-md-9">The mission of Life Navigators is to improve the quality of life for individuals with developmental and related disabilities, their families, and the community through information, education, advocacy and life planning services.</div>
+            </div>        
+            <div class="row">
+                <div class="col-md-3"><b>Our Vision</b></div>
+                <div class="col-md-9">Life Navigators envisions an inclusive community where individuals with disabilities and their support networks experience full participation and maximized independence. Our community will value the rights, hopes, dreams and contributions of all people with disabilities.</div>
+            </div>
+            </div>
+            <div class="col-md-5"><img src="https://github.com/TortoiseRevenge/HTML_SourceControl_1/blob/main/HTML_SourceControl_1/HTML_SourceControl_1/HTML%20Activity%20-%20Resources/Life%20Navigators/LifeNavigators1.jpg?raw=true" alt="Code the Way" width="50%" height="35%"></div>            
+        </div>
         </p>
          <button onclick="showHide()">Show Hide</button>
-        <div id="vision">
+        <div id="vision" class="row">
         <p>
-        <b>Our History</b>
-        <ul>
+        <div class="col-md-3"><b>Our History</b></div>
+        <div class="col-md-9"><ul>
             <li>1949: Concerned families founded the organization.  </li>
             <li>1950s: Initiated first day school for school–aged children with severe developmental disabilities </li>
             <li>1960s: Started Milwaukee’s first Information and Referral Program focused on Disability Services. </li>
@@ -39,12 +45,14 @@
             <li>2000s: Purchased and renovated a new home for our offices located at 7203 West Center Street, Wauwatosa, Wisconsin.</li>
             <li>2010s: Expanded the Trust Program by offering a second trust option, the Trust II Pooled Trust.</li>
         </ul>
+        </div>
         </p>
         </div>
         <p>
         <br />        
         <button><a href="./CTW2.html">Home Link</a></button>
     </p>
+    </div>
 </body>
 
 </html>
