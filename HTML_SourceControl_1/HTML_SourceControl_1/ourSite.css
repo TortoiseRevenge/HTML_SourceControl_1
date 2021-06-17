@@ -1,0 +1,27 @@
+﻿body {
+    background-color: #FF00FF;
+    font-family: 'Comic Sans MS';
+    color: #fafd00;
+}
+
+h1 {
+
+    font-family: 'Comic Sans MS';
+    color: #fafd00;
+}
+
+p {
+    font-family: 'Comic Sans MS';
+    color: #fafd00;
+}
+
+li {
+    font-family: 'Comic Sans MS';
+    color: #fafd00;
+}
+
+button {
+    background-color: #fafd00;
+    color: white;
+    font-family: 'Comic Sans MS';
+}
