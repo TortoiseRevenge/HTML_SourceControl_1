@@ -1,34 +1,68 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
+    <script src="..\wwwroot\lib\bootstrap\dist\js\bootstrap.js"></script>
+    <link href="..\wwwroot\lib\bootstrap\dist\css\bootstrap.css" rel="stylesheet" />
     <link href="..\ourSite.css" rel="stylesheet" />
+    <script src=".\ourSite.js"></script>
     <title>
         Code the Way
     </title>
 </head>
-<body>
-    <img src="..\HTML Activity - Resources\Code the Way\CTW-CodeTheWay Logo.png" />
-    <h2 align="Center">Code The Way</h2>
-    <h4 align="Left">Mission</h4>
-    <p>Code the Way facilitates the collaboration of schools, companies, and nonprofits to: (1) Offer students advanced computer science training and real-world job experiences working on projects that benefit nonprofits; (2) Increase certified computer science teachers; and (3) Contribute to the technology talent base. </p>
-    <p>Code the Way model includes: </p>
-    <ul>
-        <li>Student access to real-world job experience – In addition to an advanced course that may earn post-secondary credits, students get experience working collaboratively on a project that benefits a nonprofit, culminating in a presentation to business leaders.  </li>
-        <li>Companies are part of the solution – Companies invest in education, make technology more accessible to nonprofits, offer their employees a meaningful volunteer experience, and contribute to the talent pipeline. </li>
-        <li>Increasing certified computer science teachers – Support and training for computer science teacher certification increase the availability and quality of high school computer science programs.</li>
-    </ul>
-    <img src="..\HTML Activity - Resources\Code the Way\CTW-Team Learning.jpg" align="right" />
-    <h4 align="Right">Vision</h4>
-    <p align ="right">
-        High school students in Greater Milwaukee have access to high-quality computer science education and real-world job experiences, positioning them for success in technology-related fields
-    </p>
-    <h4>Links</h4>
-    <p>
-        <a href=".\LifeNavigators.html"><button>Life Navigators</button></a>
-        <a href=".\HeroforHealthCare.html"><button>Heores for Healthcare</button></a>
-        <a href=".\media.html"><button>Media</button></a>
-    </p>
-    
+<body onload="showHide()">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"><img src="..\HTML Activity - Resources\Code the Way\CTW-CodeTheWay Logo.png" /></div>
+            <div class="col-sm-10"><h2 align="Center">Code The Way</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"><button><a href=".\CodeTheWay1.html">Home</a></button></div>
+            <div class="col-sm-3"><button><a href=".\LifeNavigators.html">Life Navigators</a></button></div>
+            <div class="col-sm-3"><button><a href=".\HeroforHealthCare.html">Heores for Healthcare</a></button></div>
+            <div class="col-sm-3"><button><a href=".\media.html">Media</a></button></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3"><h4>Mission</h4></div>
+                    <div class="col-sm-9">
+                        <p>Code the Way facilitates the collaboration of schools, companies, and nonprofits to: (1) Offer students advanced computer science training and real-world job experiences working on projects that benefit nonprofits; (2) Increase certified computer science teachers; and (3) Contribute to the technology talent base. </p>
+                        <p>Code the Way model includes: </p>
+                        <ul>
+                            <li>Student access to real-world job experience – In addition to an advanced course that may earn post-secondary credits, students get experience working collaboratively on a project that benefits a nonprofit, culminating in a presentation to business leaders.  </li>
+                            <li>Companies are part of the solution – Companies invest in education, make technology more accessible to nonprofits, offer their employees a meaningful volunteer experience, and contribute to the talent pipeline. </li>
+                            <li>Increasing certified computer science teachers – Support and training for computer science teacher certification increase the availability and quality of high school computer science programs.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12"><button onclick="showHide()">Show Vision</button></div>
+                </div>
+                <div id="vision">
+                    <div class="row">
+
+                        <div class="col-sm-3">
+                            <h4>Vision</h4>
+                        </div>
+
+                        <div class="col-sm-9">
+                            High school students in Greater Milwaukee have access to high-quality computer science education and real-world job experiences, positioning them for success in technology-related fields
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6"><img src="..\HTML Activity - Resources\Code the Way\CTW-Team Learning.jpg" /></div>
+        </div>
+    </div>
+
+
+
+
 </body>
 
 </html>
