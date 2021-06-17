@@ -4,20 +4,25 @@
 
 h1 {
     color: yellow;
+    font-family: 'Comic Sans MS';
 }
 
 h3 {
     color: yellow;
+    font-family: 'Comic Sans MS';
 }
-p{
+p {
     color: yellow;
+    font-family: 'Comic Sans MS';
 }
 
-ul{
+ul {
     color: yellow;
+    font-family: 'Comic Sans MS';
 }
 
-button{
+button {
     color: yellow;
     background-color: hotpink;
+    font-family: 'Comic Sans MS';
 }
