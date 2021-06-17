@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Media</title>
+    <script src="..\wwwroot\lib\bootstrap\dist\js\bootstrap.js"></script>
+    <link href="..\wwwroot\lib\bootstrap\dist\css\bootstrap.css" rel="stylesheet" />
     <link href=".\OurSite.css" rel="stylesheet" />
     <script src=".\OurSite.js"></script>
 
@@ -9,19 +11,65 @@
 </head>
 <body>
     <h1 align="center">Media</h1>
-    <div>
-    <button onclick="showHide('mImage1')">Get Rid of first image</button>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-4">
+                <img src="../HTML Activity - Resources/Media/Media-Team Programming.jpg" id="mImage1" />
+            </div>
+            <div class="col-sm-4">
+                <img src="../HTML Activity - Resources/Media/Media-Code Review.jpg" />
+
+            </div>
+            <div class="col-sm-4">
+                <img src="../HTML Activity - Resources/Media/Media-Definition of done.jpg" />
+            </div>
         </div>
-    <div>
-    <img src="../HTML Activity - Resources/Media/Media-Team Programming.jpg" width="20%" id="mImage1"/>
+        <div class="row align-items-center">
+            <div class="col-sm-4">
+                <p>Some Image</p>
+            </div>
+            <div class="col-sm-4">
+                <p>Some Image</p>
+            </div>
+            <div class="col-sm-4">
+                <p>Some Image</p>
+            </div>
         </div>
-    <img src="../HTML Activity - Resources/Media/Media-Code Review.jpg" width="20%" />
-    <img src="../HTML Activity - Resources/Media/Media-Definition of done.jpg" width="20%" />
-    <br />
-    <img src="../HTML Activity - Resources/Media/Media-Hallway.jpg" width="20%" />
-    <img src="../HTML Activity - Resources/Media/Media-Project Management.jpg" width="20%" />
-    <img src="../HTML Activity - Resources/Media/Media-Sprint Planning.jpg" width="20%" />
-    <button onclick="document.location='\codeTheWay.html'">Home</button>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-4">
+                    <img src="../HTML Activity - Resources/Media/Media-Hallway.jpg" />
+                </div>
+                <div class="col-sm-4">
+                    <img src="../HTML Activity - Resources/Media/Media-Project Management.jpg" />
+
+                </div>
+                <div class="col-sm-4">
+                    <img src="../HTML Activity - Resources/Media/Media-Sprint Planning.jpg" />
+
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-4">
+                    <p>Another Image</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>And Another Image</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>Last Image</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row align-items-center text-center">
+
+            <div class="col-sm-12">
+                <button onclick="document.location='\codeTheWay.html'">Home</button>
+            </div>
+        </div>
 
 
 </body>
